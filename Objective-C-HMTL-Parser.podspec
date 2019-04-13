@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-  s.name          = "HTMLParser"
+  s.name          = "Objective-C-HMTL-Parser"
   s.version       = "0.0.1"
-  s.summary       = "HTMLParser"
-  s.description   = "HTMLParser"
+  s.summary       = "Objective-C-HMTL-Parser"
+  s.description   = "Objective-C-HMTL-Parser"
   s.homepage      = "https://github.com/handya/SYDownload"
   s.license       = { :type => "PRIVATE", :text => "Andrew Farquharson's internal use only" }
   s.author        = { "Andrew Farquharson" => "handya+pod@gmail.com" }
