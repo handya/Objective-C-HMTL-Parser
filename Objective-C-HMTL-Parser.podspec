@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.public_header_files = "*.h"
   s.source_files = "*.{h,m}"
   s.requires_arc = true
+  s.libraries     = 'libxml'
 end
