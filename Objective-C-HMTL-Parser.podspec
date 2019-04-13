@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source_files = "*.{h,m}"
   s.requires_arc = true
   s.libraries     = 'xml'
+  s.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${PROJECT_DIR}/.."' }
 end
